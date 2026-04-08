@@ -1,0 +1,86 @@
+{
+  "navbar": {
+    "logo": "Rno",
+    "links": [
+      { "label": "[Home]", "href": "/" },
+      { "label": "[About]", "href": "/about" },
+      { "label": "[Projects]", "href": "/projects" },
+      { "label": "[Contact]", "href": "/contact" }
+    ],
+    "themeToggle": {
+      "toDark": "Switch to Dark Mode",
+      "toLight": "Switch to Light Mode"
+    }
+  },
+  "home": {
+    "greeting": "Hi, I'm",
+    "name": "Reno",
+    "role": "Programmer & Gamer",
+    "description": "I'm a Unity Game Developer, currently learning Minecraft modding & plugins, and a gamer in my free time.",
+    "primaryAction": "View Projects",
+    "primaryLink": "/projects",
+    "secondaryAction": "Contact Me",
+    "secondaryLink": "/contact"
+  },
+  "about": {
+    "title": "About Me",
+    "bioTitle": "Bio",
+    "bio": "My name is Reno, and I'm a programmer from Indonesia. I mainly focus on game development in Unity, and I've recently started learning about Minecraft modding and plugins.",
+    "subBio": "I also learned a bit of web development during school and university, and I'm always eager to keep learning.",
+    "techStackTitle": "Tech Stack & Tools",
+    "techStack": [
+      { "name": "C#", "iconUrl": "/icons/cs.svg" },
+      { "name": "Unity", "iconUrl": "/icons/unity.svg" },
+      { "name": "HTML", "iconUrl": "/icons/html5.svg" },
+      { "name": "CSS", "iconUrl": "/icons/css3.svg" },
+      { "name": "Next.js", "iconUrl": "/icons/nextjs.svg" },
+      { "name": "Java", "iconUrl": "/icons/java.svg" }
+    ]
+  },
+  "projects": [
+    {
+      "title": "Midnight Toys",
+      "slug": "midnight-toys",
+      "description": "A 2D FNAF-inspired survival horror game with Paper Ghost Stories artstyle",
+      "content": "Midnight Toys is a 2D FNAF-inspired survival horror game featuring a unique 'paper ghost story' art style, developed by Palm Studio for Gimersia Game Jam 2025. Serving as the Gameplay Programmer, I was responsible for building the core office survival mechanics. This includes the functional CCTV system, the high-stakes Music Box, and the strategic vent/window monitoring. I also implemented a mask mechanic to repel specific haunted dolls, along with a power management system specifically for the vent Iron Barrier.",
+      "imageUrl": "/projectImages/midnightToys.png",
+      "tags": ["C#", "Unity 2D", "Game Jam"],
+      "actionUrl": "https://palm-gamestudio.itch.io/midnight-toys",
+      "actionText": "Download"
+    },
+    {
+      "title": "Custom Minecraft Plugin",
+      "slug": "custom-minecraft-plugin",
+      "description": "A custom Minecraft plugin using the PaperSpigot API",
+      "content": "This PaperSpigot plugin is a personal project I developed to explore server-side mechanics and Java integration. It features a complete gameplay loop, including a Custom Money System where players earn coins by defeating mobs. I implemented Custom Entities, such as boss mobs with unique loot tables that drop high-value items and a Special Fireball Wand. The plugin also includes a Dynamic Scoreboard to track player balance and online count, a Gacha Box system fueled by earned coins, and various custom administrative commands to streamline server management.",
+      "imageUrl": "/projectImages/papermc.png",
+      "tags": ["Java", "PaperSpigot", "Plugin"],
+      "actionUrl": "https://github.com/Lortyo/plgnppr",
+      "actionText": "GitHub"
+    },
+    {
+      "title": "Custom Minecraft Mod",
+      "slug": "custom-minecraft-mod",
+      "description": "A Minecraft Forge mod developed as a personal side project",
+      "content": "This Forge-based mod is a comprehensive passion project I developed to explore deep-scale game modification. I implemented a vast array of custom content, ranging from 3D-modeled items and Custom Tools (including Hammers and Chisel) to Full Armor Sets with unique set effects and custom Armor Trims. The mod also features Custom Entity Spawning with unique Boss Mobs, custom creative tabs, and complex loot tables. To ensure compatibility, I utilized DataGen (Data Generation) for block states and recipes, along with custom tags and tooltips.",
+      "imageUrl": "/projectImages/forge.jpeg",
+      "tags": ["Java", "Forge API", "Modding"],
+      "actionUrl": "https://github.com/Lortyo/forgj",
+      "actionText": "GitHub"
+    }
+  ],
+  "contact": {
+    "placeholder1": "Name",
+    "placeholder2": "Email Address",
+    "placeholder3": "Message",
+    "buttonAction": "Send Message",
+    "info": "Direct contact info",
+    "info2": "Email Address",
+    "email": "rwenooo@gmail.com",
+    "whatsapp": "+6285934451341",
+    "socials": {
+      "github": "https://github.com/Lortyo",
+      "discord": "https://discord.com/users/561905662133796876"
+    }
+  }
+}
