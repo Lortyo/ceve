@@ -8,7 +8,7 @@ export default function Navbar() {
   const { navbar } = siteData
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const pathname = usePathname()
-  const [isDarkMode, setIsDarkMode] = useState(false)
+  const [isDarkMode, setIsDarkMode] = useState(true)
 
   useEffect(() => {
     const savedTheme = localStorage.getItem('theme')
